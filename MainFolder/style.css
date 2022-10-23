@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menuBar{
+    position: fixed;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffffdb;
+}
+#title{
+    font-size: 40px;
+    padding: 17px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    color: black;
+}
+.ul-list{
+    list-style-type: none;
+    position: relative;
+    left: 300px;
+}
+.listView{
+    float: left;
+    padding: 28px;
+}
+.ul-list a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: teal;
+    text-decoration: none;
+}
+.ul-list a:hover{
+    border-bottom: 5px black solid;
+}
+#searchBar{
+    position: relative;
+    left: 461px;
+    top: 22px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+#body{
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url("student.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgBody{
+    position: absolute;
+    top: 276px;
+    left: 80px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #ffffff91;
+}
+.welcome{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: arial;
+    position: absolute;
+    color: teal;
+}
+.loremText{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 60px;
+    color: black;
+}
+.button{
+    position: absolute;
+    left: 100px;
+    top: 435px;
+}
+.button button{
+    font-size: 25px;
+    font-weight: bold;font-family: arial;
+    background-color: teal;
+    padding: 3px 10px;
+    border: 1px solid #ffffff94;
+    border-radius: 25px;
+}
+.button button:hover{
+    font-size: 27px;
+    transition: 0.5s;
+}
+.button button a{
+    text-decoration: none;
+    color: white;
+}
+#blogPart{
+    height: 800px;
+    width: 1100px;
+    
+}
+.blogText{
+    position: absolute;
+    left: 600px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    color: teal;
+    border-bottom: 3px dotted teal;
+    margin-top: 25px;
+}
+.videos {
+    position: relative;
+    top: 50px;
+}
+.vid1{
+    height: 330px;
+    width: 425px;
+    padding: 35px;
+    position: absolute;
+left: -16px;}
+
+.vid2{
+    height: 330px;
+    width: 425px;
+    padding: 35px;
+    position: absolute;
+    left: 425px;
+}
+.vid3{
+    height: 330px;
+    width: 425px;
+    padding: 35px;
+    position: relative;
+    top: 370px;
+    right: 17px;
+}
+.vid4{
+    height: 330px;
+    width: 425px;
+    padding: 35px;
+    position: absolute;
+    left: 867px;
+    
+top: 0px;}
+.vid5{
+    height: 330px;
+    width: 425px;
+    padding: 35px;
+    position: relative;
+    top: 370px;
+    right: 75px;
+}
+.vid6{
+    height: 330px;
+    width: 425px;
+    padding: 35px;
+    position: relative;
+    
+    left: 868px;
+bottom: 34px;}
+
+#servicesPart{
+    height: 600px;
+    width: 100%;
+    background-color: teal;
+    position: relative;
+    margin-top: 15px;
+}
+.textServices{
+    position: absolute;
+    left: 610px;
+    top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+    border-bottom: 3px dotted white;
+}
+.controlBox{
+    position: relative;
+    top: 30px;
+}
+
+
+.boxOne{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 175px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px #888888;
+}
+.boxOne:hover{
+    box-shadow: none;
+}
+.boxOne h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin: 25px 0px;
+}
+.boxOne p {
+    text-align: justify;
+    font-family: arial;
+    margin: 0px 10px;
+}
+
+
+.boxTwo{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px #888888;
+}
+.boxTwo:hover{
+    box-shadow: none;
+}
+.boxTwo h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin: 25px 0px;
+}
+.boxTwo p {
+    text-align: justify;
+    font-family: arial;
+    margin: 0px 10px;
+}
+
+
+.boxThree{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px #888888;
+}
+.boxThree:hover{
+    box-shadow: none;
+}
+.boxThree h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin: 25px 0px;
+}
+.boxThree p {
+    text-align: justify;
+    font-family: arial;
+    margin: 0px 10px;
+}
+
+
+.boxFour{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 175px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px #888888;
+}
+.boxFour:hover{
+    box-shadow: none;
+}
+.boxFour h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin: 25px 0px;
+}
+.boxFour p {
+    text-align: justify;
+    font-family: arial;
+    margin: 0px 10px;
+}
+
+
+.boxFive{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px #888888;
+}
+.boxFive:hover{
+    box-shadow: none;
+}
+.boxFive h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin: 25px 0px;
+}
+.boxFive p {
+    text-align: justify;
+    font-family: arial;
+    margin: 0px 10px;
+}
+
+
+.boxSix{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px #888888;
+}
+.boxSix:hover{
+    box-shadow: none;
+}
+.boxSix h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin: 25px 0px;
+}
+.boxSix p {
+    text-align: justify;
+    font-family: arial;
+    margin: 0px 10px;
+}
+
+#projectsPart {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.middleImages{
+    position: relative;
+    left: 70px;
+}
+.uperPart {
+    height: 70px;
+    background-color: white;
+}
+.uperPart h3 {
+    position: absolute;
+    left: 615px;
+    top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    color: teal;
+    border-bottom: 3px dotted teal;
+}
+
+.img1{
+    background-image: url(home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}
+.img1LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img1:hover .img1LowerPart{
+    visibility: visible;
+}
+.img1LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img1LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+
+.img2{
+    background-image: url(home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 300px;
+    height: 200px;
+    width: 300px;
+}
+.img2LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img2:hover .img2LowerPart{
+    visibility: visible;
+}
+.img2LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img2LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+
+.img3 {
+    background-image: url(home3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 600px;
+    height: 200px;
+    width: 300px;
+}
+.img3LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img3:hover .img3LowerPart{
+    visibility: visible;
+}
+.img3LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img3LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+
+.img4 {
+    background-image: url(home4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 900px;
+    height: 200px;
+    width: 300px;
+}
+.img4LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img4:hover .img4LowerPart{
+    visibility: visible;
+}
+.img4LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img4LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+.img5 {
+    background-image: url(home5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    height: 200px;
+    width: 300px;
+}
+.img5LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img5:hover .img5LowerPart{
+    visibility: visible;
+}
+.img5LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img5LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+
+
+.img6 {
+    background-image: url(home6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    height: 200px;
+    width: 300px;
+}
+.img6LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img6:hover .img6LowerPart{
+    visibility: visible;
+}
+.img6LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img6LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+
+
+.img7 {
+    background-image: url(home7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    height: 200px;
+    width: 300px;
+}
+.img7LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img7:hover .img7LowerPart{
+    visibility: visible;
+}
+.img7LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img7LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+.img8 {
+    background-image: url(home8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    height: 200px;
+    width: 300px;
+}
+.img8LowerPart {
+    height: 50px;
+    background-color: teal;
+    position: relative;
+    top: 150px;
+    visibility: hidden;
+}
+.img8:hover .img8LowerPart{
+    visibility: visible;
+}
+.img8LowerPart span {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: left;
+    margin: 14px;
+}
+.img8LowerPart p {
+    font-size: 18px;
+    font-family: ui-monospace;
+    color: white;
+    float: right;
+    margin: 15px;
+}
+
+
+
+
+#aboutMain{
+    height: 300px;
+    width: 100%;
+    background-color: teal;position: absolute;
+}
+.leftPart {
+    width: 50%;
+    height: 100%;
+    font-family: arial;
+    position: absolute;
+}
+
+.leftPart h2{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.leftPart p{
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 20px;
+    color: #ffffffb0;
+}
+.leftPart button {
+    font-family: arial;
+    font-size: 15px;
+    border-color: teal;
+    padding: 2px;
+    background-color: transparent;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+    left: 555px;
+}
+.leftPart button a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightPart {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url(AboutUs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

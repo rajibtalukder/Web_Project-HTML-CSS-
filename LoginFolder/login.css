@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.container {
+    margin-top: 25px;
+    height: 600px;
+    width: 600px;
+    background-color: teal;
+    border-radius: 10px;
+    position: absolute;
+    left: 400px;
+}
+.text{
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.title{
+    color:white;
+    text-align: center;
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.subTitle{
+    color: #ffffff8f;
+    text-align: center;
+}
+.inputBox{
+    margin: 12px;
+padding-left: 25px;position: relative;top: 20px;}
+
+.email{
+    height: 30px;
+    width: 518px;
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+.pass{
+    height: 30px;
+    width: 518px;
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+
+.RegisterBtn{
+    height: 40px;
+    width: 533px;
+    background-color: lightcoral;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
